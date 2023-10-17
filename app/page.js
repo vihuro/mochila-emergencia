@@ -4,92 +4,99 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+      <header className={styles.title} >
+        <h1>SEJA BEM VINDO A SUA LISTA PARA A MOCHILA DE EMERGENCIA</h1>
+      </header>
+      <div>
+        <a href='https://wol.jw.org/pt/wol/d/r5/lp-t/102017165#h=45' >
+        Máteria: Despertai 2017 Nº5 pp.3-7
         </a>
       </div>
+      <main className={styles.body} >
+        <ul>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+              Cobertores, roupas e calçasdos resistentes
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Lanterna
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Kit de primeros socorros e um apito para pedir ajuda
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Talheres, abridor de late, fósforo à prova d´água e um pequeno kit de ferramentas
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Máscaras contra poeira, fita à prova d´água e lonas de plástico para você se abrigar
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Escova de dente, sabonete, toalhas e papel higiênico
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+              Itens para cuidar de crianças, idosos ou deficientes
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Um recipiente à prova d´água para guardar remédios, cópias de receitas médicas e outros documentos importantes
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Lista de contatos de emergência e um mapa da região
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Cartões de crédito e dinheiro
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+
+              Papel, lápis, livros e brinquedos para as crianças
+            </label>
+          </li>
+          <li className={styles.card} >
+            <input type='checkbox' />
+            <label htmlFor='' >
+              Bíblia
+            </label>
+          </li>
+        </ul>
+      </main>
     </main>
   )
 }
